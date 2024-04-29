@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro script</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellow;
+            font-size: 3em;
+        }
+
+        body {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Porra de maldição</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um numero: ')) //perseInt para converter strings em numeros inteiros e parseFloat para numeros fracionados
+        var n2 = Number(window.prompt('Digite outro numero: '))
+        var s = n1 + n2
+        window.alert(`A soma é ${s}`)
+    </script>
+</body>
+</html>
