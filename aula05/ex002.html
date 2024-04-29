@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Mais sobre você</h1>
+    <p>Qual pais voce mora ?</p>
+    <input type="text" name="resid" id="resid" required>
+    <p>Qual pais você nasceu ?</p>
+    <input type="text" name="nasc" id="nasc" required>
+    <input type="button" value="Verificar" onclick="calcular()">
+    
+    <div id="result">
+
+    </div>
+    
+    <script>
+        function calcular() {
+            var reside = window.document.querySelector('input#resid').value;
+            var nasceu = window.document.querySelector('input#nasc').value;
+            var resultado = window.document.querySelector('div#result');
+            if (reside == nasceu) {
+                resultado.innerHTML = '<p>Voce está em casa !</p>';
+            } else {
+                resultado.innerHTML = '<p>voce está é estrangeiro !</p>';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
