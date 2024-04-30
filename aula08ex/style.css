@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(0, 204, 255), black);
+    height: 100vh;
+}
+
+header {
+    font: normal 1.5em Arial;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+section {
+    background-color: white;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+    padding: 20px;
+    font: bold 1.5em Arial;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    width: 40vw;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
