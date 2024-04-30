@@ -17,6 +17,20 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+div#msg {
+    font: normal 1.5em Arial;
+    padding: 10px;
+    text-align: center;
+}
+
+div#foto {
+    height: 60vh;
+    background-image: url(imagens/foto-manha.jpg);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
 footer {
     color: white;
     text-align: center;
